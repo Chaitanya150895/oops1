@@ -17,7 +17,7 @@ public static void main(String args[]){
     x = 4.9;
     y = 3.8;
     z = x - y;
-    System.out.println("Float Subtraction " + z);
+    System.out.println("Result is " + z);
 
 
 }
