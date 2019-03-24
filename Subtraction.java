@@ -8,11 +8,11 @@ public static void main(String args[]){
     System.out.println("Result is " + c);
     
 
-float x, y, z;
- x = 4.9f;
- y = 3.8f;
- z = x - y;
- System.out.println("Float Subtraction " + z);
+    float x, y, z;
+    x = 4.9f;
+    y = 3.8f;
+    z = x - y;
+    System.out.println("Float Subtraction " + z);
 
 
 }
