@@ -7,6 +7,11 @@ public static void main(String args[]){
     c = a - b;
     System.out.println("Result is " + c);
     
+    float p,q,r;
+    p = 4.9f;
+    q = 3.8f;
+    r = p - q;
+    System.out.println("Result is " + r);
 
     double x, y, z;
     x = 4.9;
