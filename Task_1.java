@@ -10,4 +10,6 @@ public static void main(String args[]){
     c =(a + b)*(a + b);
     System.out.println("The value of (a+b)^2 is " + c);
 }
+
+
 }
