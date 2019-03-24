@@ -8,9 +8,9 @@ public static void main(String args[]){
     System.out.println("Result is " + c);
     
 
-    float x, y, z;
-    x = 4.9f;
-    y = 3.8f;
+    double x, y, z;
+    x = 4.9;
+    y = 3.8;
     z = x - y;
     System.out.println("Float Subtraction " + z);
 
