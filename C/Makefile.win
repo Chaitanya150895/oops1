@@ -1,15 +1,15 @@
-# Project: CProject
+# Project: Project2
 # Makefile created by Dev-C++ 5.11
 
 CPP      = g++.exe
 CC       = gcc.exe
 WINDRES  = windres.exe
-OBJ      = insurancelo.o
-LINKOBJ  = insurancelo.o
+OBJ      = loop.o infiniteloop.o simpleincreamentloop.o mdoscosmcx,c.o
+LINKOBJ  = loop.o infiniteloop.o simpleincreamentloop.o mdoscosmcx,c.o
 LIBS     = -L"C:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib32" -static-libgcc -m32
 INCS     = -I"C:/Program Files/Dev-Cpp/MinGW64/include" -I"C:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
 CXXINCS  = -I"C:/Program Files/Dev-Cpp/MinGW64/include" -I"C:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
-BIN      = CProject.exe
+BIN      = loop.exe
 CXXFLAGS = $(CXXINCS) -m32
 CFLAGS   = $(INCS) -m32
 RM       = rm.exe -f
@@ -24,5 +24,14 @@ clean: clean-custom
 $(BIN): $(OBJ)
 	$(CC) $(LINKOBJ) -o $(BIN) $(LIBS)
 
-insurancelo.o: insurancelo.c
-	$(CC) -c insurancelo.c -o insurancelo.o $(CFLAGS)
+loop.o: loop.c
+	$(CC) -c loop.c -o loop.o $(CFLAGS)
+
+infiniteloop.o: infiniteloop.c
+	$(CC) -c infiniteloop.c -o infiniteloop.o $(CFLAGS)
+
+simpleincreamentloop.o: simpleincreamentloop.c
+	$(CC) -c simpleincreamentloop.c -o simpleincreamentloop.o $(CFLAGS)
+
+mdoscosmcx,c.o: mdoscosmcx,c.c
+	$(CC) -c mdoscosmcx,c.c -o mdoscosmcx,c.o $(CFLAGS)
