@@ -11,9 +11,7 @@ int main()
             dis = 10;
         else
             dis=0;
-            
-            
-    
+             
     tot = (qty * rate ) - (qty * rate * dis/100 );
     printf ( "Total expenses = Rs. %f\n", tot );
     
