@@ -5,7 +5,6 @@ int main()
 	while (i=10)
 	{
 		printf("%d\n",i);
-		i = i + 1;
 	}
 	
 	return;	
