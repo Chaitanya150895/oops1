@@ -7,7 +7,7 @@ int main()
 	scanf("%d%d%d%d%d", &m1, &m2, &m3, &m4, &m5);
 	
 	per = (m1 + m2 + m3 + m4 + m5)*100/500;
-	printf("Percentages are = %d", per);
+	printf("Percentages are = %d\n", per);
 	
 	if (per>=60)
 		printf("First division");
