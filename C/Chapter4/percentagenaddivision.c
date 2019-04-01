@@ -13,14 +13,16 @@ int main()
 	printf("First division");
 	
 	
-	if ((per>=50) && (per<=60))
+	else if (per>=50)
 	printf("Second division");
 		
 		
-	if ((per>=40) && (per<=50))
+	else if (per>=40) 
 	printf("Third division");		
 		
 			
-	if (per<=40)		
+	else
 	printf("Fails");
+
+return 0;
 }	
