@@ -1,50 +1,62 @@
-#include<stdio.h>
-int main()
-{
+[Project]
+FileName=detailsandsalary.c
+Name=Project3
+Type=1
+Ver=2
+ObjFiles=
+Includes=
+Libs=
+PrivateResource=
+ResourceIncludes=
+MakeIncludes=
+Compiler=
+CppCompiler=
+Linker=
+IsCpp=0
+Icon=
+ExeOutput=
+ObjectOutput=
+LogOutput=
+LogOutputEnabled=0
+OverrideOutput=0
+OverrideOutputName=
+HostApplication=
+UseCustomMakefile=0
+CustomMakefile=
+CommandLine=
+Folders=
+IncludeVersionInfo=0
+SupportXPThemes=0
+CompilerSet=3
+CompilerSettings=0000000100000000000000000
+UnitCount=1
 
-char g;
-int y, q, s;
+[VersionInfo]
+Major=1
+Minor=0
+Release=0
+Build=0
+LanguageID=1033
+CharsetID=1252
+CompanyName=
+FileVersion=
+FileDescription=Developed using the Dev-C++ IDE
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=
+AutoIncBuildNr=0
+SyncProduct=1
 
-printf("Enter Gender, Years of services, Qualification of the Employee");
-scanf("%c%d%d", &g, &y, &q);
+[Unit1]
+FileName=detailsandsalary.c
+CompileCpp=0
+Folder=
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
 
-if (g=='m')
-{
-	if(y>=10)
-	{
-		if(q=='pg')
-		s = 15000;
-		else
-		s = 10000;
-	}
-	else
-	{
-		if(q=='pg')
-		s = 10000;
-		else
-		s = 7000;
-	}
-}
-
-else
-{
-	if(y>=10)
-	{
-		if(q=='pg')
-		s = 12000;
-		else
-		s = 9000;
-	}
-	else
-	{
-		if(q=='pg')
-		s = 9000;
-		else
-		s = 6000;
-	}
-}
-
-printf("Salary of the Employee = %d", s);
-
-return 0;
-}
