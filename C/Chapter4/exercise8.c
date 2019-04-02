@@ -1,22 +1,62 @@
-#include<stdio.h>
-int main()
-{
-	char x;
-	
-	printf("Enter a character");
-	scanf("%c",&x);
-	ss
-	if ((x >= 65 && x <= 90)) 
-	printf("%c is a Capital Alphabet", x);
-	
-	else if ((x >= 97 && x <= 122)) 
-	printf("%c is a small Alphabet", x);
-	
-	else if((x >= 48 && x <= 57)) 
-	printf("%c is a number", x);
-	
-	else if((x >= 0 && x <= 47) || (x>=58 && x<=64) || (x>=91 && x<=96) || (x>=123 && x<=127))
-	printf("%c is Special Symbol", x);
-	
-	return 0;
-}
+[Project]
+FileName=exercise8.c
+Name=Project20
+Type=1
+Ver=2
+ObjFiles=
+Includes=
+Libs=
+PrivateResource=
+ResourceIncludes=
+MakeIncludes=
+Compiler=
+CppCompiler=
+Linker=
+IsCpp=0
+Icon=
+ExeOutput=
+ObjectOutput=
+LogOutput=
+LogOutputEnabled=0
+OverrideOutput=0
+OverrideOutputName=
+HostApplication=
+UseCustomMakefile=0
+CustomMakefile=
+CommandLine=
+Folders=
+IncludeVersionInfo=0
+SupportXPThemes=0
+CompilerSet=3
+CompilerSettings=0000000100000000000000000
+UnitCount=1
+
+[VersionInfo]
+Major=1
+Minor=0
+Release=0
+Build=0
+LanguageID=1033
+CharsetID=1252
+CompanyName=
+FileVersion=
+FileDescription=Developed using the Dev-C++ IDE
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=
+AutoIncBuildNr=0
+SyncProduct=1
+
+[Unit1]
+FileName=exercise8.c
+CompileCpp=0
+Folder=
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
