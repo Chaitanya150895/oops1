@@ -6,6 +6,7 @@ int main()
 	printf("Enter 3 numbers");
 	scanf("%d%d%d", &x,&y,&z);	
 	
+	
 	if(x>y && x>z) 
 	printf("biggest = %d\n", x);
 	if(y>x && y>z) 
