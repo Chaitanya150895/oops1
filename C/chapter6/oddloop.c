@@ -3,9 +3,10 @@ int main()
 
 {
 
-char another;
+char another = 'y';
 int num;
-do
+for (;another == 'y';)
+
 {
 	printf("enter a number");
 	scanf("%d",num);
@@ -14,7 +15,7 @@ do
 	fflush(stdin);
 	scanf("%c",&another);
 }
-while (another=='y');
+
 return 0;
 	
 }
