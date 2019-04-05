@@ -7,19 +7,18 @@ void argentina();
 int main(){
     
     italy();
-    brazil();
-    argentina();
-
-
+    
     return 0;
 }
 
 void italy(){
     printf("I am in Italy\n");
+    brazil();
 }
 
 void brazil(){
     printf("I am in Brazil\n");
+    argentina();
 }
 
 void argentina(){
