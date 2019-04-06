@@ -1,16 +1,7 @@
 
 #include<stdio.h>
 
-void armStrong(int num); 
-int main()
-
-{
-    int num;
-	armStrong(num);
-
-	return 0;
-}
-
+//void armStrong(int num); 
 
 void armStrong(int num)
 
@@ -39,5 +30,14 @@ void armStrong(int num)
 
 	}
 
+}
+
+int main()
+
+{
+    int num;
+	armStrong(num);
+
+	return 0;
 }
 
