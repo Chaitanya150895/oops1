@@ -1,7 +1,7 @@
 
 #include<stdio.h>
 
-void armStrong(int); 
+void armStrong(int num); 
 int main()
 
 {
@@ -12,10 +12,10 @@ int main()
 }
 
 
-void armStrong(int a)
+void armStrong(int num)
 
 {
-	int num, num1, num2, num3, num4;
+	int num1, num2, num3, num4;
 
 	for (num; num <= 500 ; num++ )
 	{
