@@ -17,11 +17,13 @@ int main()
 			
 			printf("and said goodbuy adiue to soccer");
 			
-			exit
-			
+			exit (1); /*terminates program execution*/	
 			
 		}
+		
+		sos:
+			printf("To err is human\n");
 	
-	
+	return 0;
 	
 }
