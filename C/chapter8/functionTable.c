@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-int multiplicationTable(int);
+void multiplicationTable(int);
 
 int main()
 {
@@ -9,7 +9,7 @@ int main()
 	
 }
 
-int multiplicationTable(int table)
+void multiplicationTable(int table)
 {
 int i, j;
 for(i = 1; i <= 10; i++)
