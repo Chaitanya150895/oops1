@@ -7,6 +7,7 @@ int main()
 	int table;
 	multiplicationTable(table);
 	
+	return 0;
 }
 
 void multiplicationTable(int table)
