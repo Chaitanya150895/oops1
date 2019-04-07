@@ -1,17 +1,17 @@
 #include<stdio.h>
 
-int multiplicationTable(int, int, int);
+int multiplicationTable(int);
 
 int main()
 {
-	int i, j, table;
-	multiplicationTable(i, j, table);
-	return 0;
+	int table;
+	multiplicationTable(table);
+	
 }
 
-int multiplicationTable(int i, int j, int table)
+int multiplicationTable(int table)
 {
-
+int i, j;
 for(i = 1; i <= 10; i++)
 	{
 		for (j = 1; j <= 10; j++)
