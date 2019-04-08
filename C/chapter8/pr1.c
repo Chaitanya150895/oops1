@@ -11,7 +11,7 @@ int main()
     printTable(num);
 
     return 0;
-
+++++.
 }
 
 //definition of a function is must to use it
