@@ -11,6 +11,4 @@ int main ()
      printf ("%d %d %u %u\n", a,*p,&a,p);
 
      return 0;
-
-
 }
