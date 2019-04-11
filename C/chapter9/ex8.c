@@ -12,7 +12,7 @@ int mathfun(int a, int b, int c, int d, int e, int sum, int avg, int fun, int st
 	avg = sum / 5;
 	fun = ((sum - a)*(sum - a)+(sum - b)*(sum - b)+(sum - c)*(sum - c)+(sum - d)*(sum - d)+(sum - e)*(sum - e))/5;
 	stddev = sqrt(fun);
-	
+	return 0;
 }
 
 int main()
