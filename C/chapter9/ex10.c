@@ -1,26 +1,26 @@
 #include<stdio.h>
 #include<math.h>
 
-int areaTriangle(int, int, int, int, int);
+int areaTriangle(int *);
 
 int main()
 {
-	int a, b, c, s, area;
+	int area;
 	
-	printf("Enter the 3 sides of triangle");
-	scanf("%d%d%d", &a, &b, &c);
-	
-	areaTriangle(a, b, c, s, area);
+	areaTriangle(&area);
+	printf("the area of triangle is %d\n", area);
 	
 	return 0;
 }
 
-int areaTriangle(int a, int b, int c, int s, int area)
+int areaTriangle(int *area)
 {
+	int a, b, c, s;
+	printf("Enter the 3 sides of triangle");
+	scanf("%d%d%d", &a, &b, &c);
 	s = (a + b + c) / 2;
 	
-	area = sqrt(s*(s - a)*(s - b)*(s - c));
-	printf("the area of triangle is %d", area);
+	*area = sqrt(s*(s - a)*(s - b)*(s - c));
 	
 	return 0;
 }
