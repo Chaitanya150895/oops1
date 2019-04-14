@@ -14,6 +14,6 @@ int main()
 	if (j==k)
 	printf("the two pointers points to same location\n");
 	else
-	printf("the tw pointers points to diff location\n");
+	printf("the two pointers points to diff location\n");
 	return 0;
 	}
