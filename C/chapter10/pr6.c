@@ -5,6 +5,7 @@ void decrement();
 int main()
 {
     printf("i=%d\n",i);
+
     increment();
     increment();
     decrement();
