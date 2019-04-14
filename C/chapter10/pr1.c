@@ -1,9 +1,9 @@
 #include <stdio.h>
 int main()
 {
-    char ch = 128;
-    char dh = -132;
-    printf ("%d%d\n",ch,ch);
+    char ch = 65;
+    char dh = -34;
+    printf ("%c%c\n",ch,ch);
     return 0;
     
 }
