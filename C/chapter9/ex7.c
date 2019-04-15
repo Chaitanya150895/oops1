@@ -10,6 +10,6 @@ int main()
 }
 
 int function (int *m)
-{
+{                                 
     return (*m + 2);
 }
