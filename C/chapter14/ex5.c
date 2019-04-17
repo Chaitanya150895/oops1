@@ -12,4 +12,5 @@ int main()
 	return 0;
 }
 
+
 //output 2293404 8 1
