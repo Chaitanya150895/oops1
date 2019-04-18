@@ -6,6 +6,8 @@ int main()
 	printf("Enter your name");
 	scanf("%[^\n]s", name);
 	printf("Hello %s!", name);
-
+	//gets(name);
+	//puts("Hello!");
+	//puts(name);
 	return 0;
 }
