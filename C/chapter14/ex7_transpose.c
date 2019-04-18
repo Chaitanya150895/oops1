@@ -6,18 +6,18 @@ int main()
 	printf("Enter the matrix element for 4x4 matrix");
 	scanf("%d %d", &a, &b);
 	
-	for(i=0; i<=a; i++)
+	for(i=0; i<=3; i++)
 	{
-		for(j=0; j<=b; j++)
+		for(j=0; j<=3; j++)
 		{
 			scanf("%d", &matrix[i][j]);
 		}
 	}
 	
 	
-	for(i=0; i<=a; i++)
+	for(i=0; i<=3; i++)
 	{
-		for(j=0; j<=b; j++)
+		for(j=0; j<=3; j++)
 		{
 			transpose[j][i] = matrix[i][j] ;
 		}
