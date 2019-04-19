@@ -1,15 +1,15 @@
 #include<stdio.h>
-#include<stdlib.h>
+#include<string.h>
 
 int main()
 {
-	char original[] ="ORIGINAL";
-	char copy[10];
+	char str1[] ="ORIGINAL";
+	char str2[10];
 
-	strcpy(original, copy);
+	strcpy(str2, str1);
 
-	printf("\n%s", original);
-	printf("\n%s", copy);
+	printf("\n%s", str1);
+	printf("\n%s", str2);
 	
 	return 0;
 }
