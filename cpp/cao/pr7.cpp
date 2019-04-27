@@ -32,7 +32,7 @@ void C2::set_status(int state)
 	status = state;
 }
  
- //idle() is member C1, but friend of C2
+ //idle() is member C1, but friend of C2//
  
 int C1::idle(C2 b)
 {
