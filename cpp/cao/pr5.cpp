@@ -14,8 +14,8 @@ int main()
     };
 
 //now refrerence union elemnt directly
-1 == 100000;
-cout << 1 << " ";
+l = 100000;
+cout << l << " ";
 d = 123.2342;
 cout << d << " ";
 strcpy(s, "hi ");
