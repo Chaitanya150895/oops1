@@ -4,11 +4,14 @@
 #include<cstring>
 using namespace std;
 
-struct mystr {
+class mystr //replaced the structure by class
+{
+    //by default private
+    char str[255];
+    
+    public:
     void buildstr(char *s); //public
     void showstr();
-private: //now go private
-char str[255];
 };
 
 void mystr:: buildstr(char *s)
