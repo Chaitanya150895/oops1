@@ -34,6 +34,20 @@ double employee::getwage()
     return wage;
 }
 
+/* Herem all private element griouped together and all public grouped together
+
+class employee{
+    char name[80];
+    double wage;
+public:
+    void putwage(char *n);
+    void getname(char *n);
+    void puteage(double w);
+    double ghetwage();
+};
+*/
+
+
 int main()
 {
     employee ted;
