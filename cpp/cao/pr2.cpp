@@ -1,0 +1,20 @@
+#include<iostream>
+using namespace std;
+
+class myclass {
+public:
+    int i, j, k; //accissible to entire program
+};
+
+int main()
+{
+    myclass a, b;
+    a.i = 100; //access to i, j and k is ok
+    a.j = 4; 
+    a.k = a.i * a.j;
+
+    b.k = 12; //remember, a.k and b.k are different
+    cout << a.k << " " << b.k;
+
+    return 0;
+}
