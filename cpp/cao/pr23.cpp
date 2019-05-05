@@ -19,6 +19,7 @@ myclass::myclass (int n)
 
 myclass::~myclass ()
 {
+    i = n;
     cout<<"Destroying" <<i<<"\n";
 }
 
