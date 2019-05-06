@@ -8,7 +8,7 @@ int main()
 {
 	int x;
 	
-	x =10;
+	x = 10;
 	cout << x << "Negated is";
 	
 	neg(x); //no longer need the & operator
