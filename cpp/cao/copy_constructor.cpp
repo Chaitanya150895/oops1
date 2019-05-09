@@ -13,10 +13,10 @@ class Samplecopyconstructor
     }
 
     /*Copy constructor*/
-    Samplecopyconstructor (const Samplecopyconstructor &Sam)
+    Samplecopyconstructor ( Samplecopyconstructor &Sam)
     {
-        x = Sam.x;
-        y = Sam.y;
+        x = Sam.x = 2;
+        y = Sam.y = 5;
     }
 
     void display()
