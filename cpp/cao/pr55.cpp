@@ -10,6 +10,11 @@ class loc{
         latitude = lt;
     }
 
+    void updateLongLat(int lg, int lt){ //created function to take old values of the object1
+        longitude = lg;
+        latitude = lt;
+    }
+
     void show(){
         cout << longitude << " ";
         cout << latitude << "\n"; 
@@ -71,15 +76,17 @@ int main(){
     ob1 = ob1 + ob2;
     ob1.show(); //
 
- 
+    ob1.updateLongLat(2,20);  //function to take old values of the object1
 
     ob1 = ob1 - ob2;
     ob1.show(); 
 
+    ob1.updateLongLat(2,20);  //function to take old values of the object1
 
     ob1 = ob1 * ob2;
     ob1.show(); 
 
+    ob1.updateLongLat(2,20);  //function to take old values of the object1
 
     ob1 = ob1 / ob2;
     ob1.show(); 
