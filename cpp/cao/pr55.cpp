@@ -10,11 +10,6 @@ class loc{
         latitude = lt;
     }
 
-    void updateLongLat(int lg, int lt){
-        longitude = lg;
-        latitude = lt;
-    }
-
     void show(){
         cout << longitude << " ";
         cout << latitude << "\n"; 
@@ -76,17 +71,15 @@ int main(){
     ob1 = ob1 + ob2;
     ob1.show(); //
 
-    ob1.updateLongLat(2,20);
+ 
 
     ob1 = ob1 - ob2;
     ob1.show(); 
 
-    ob1.updateLongLat(2,20);
 
     ob1 = ob1 * ob2;
     ob1.show(); 
 
-    ob1.updateLongLat(2,20);
 
     ob1 = ob1 / ob2;
     ob1.show(); 
