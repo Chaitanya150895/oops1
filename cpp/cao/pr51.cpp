@@ -55,8 +55,7 @@ catch (bad_alloc xa) {
     return 1;
 }
 
-//initialize dynamic array woith power of two 
-for (i =0; i<5; i++){
+//initialize dynamic array woith power 
     p[i].setx(ofTwo[i].getx());
 }
 
