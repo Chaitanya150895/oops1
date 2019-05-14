@@ -16,23 +16,38 @@ class base
     }
 };
 
-class derived : public base{
+//i and j inherited as protected
+class derived1 : public base{
     int k;
     public:
-    // derived may acees base's i and j
-    void setk() {k=i*j;}
+        void setk() {k=i*j;} //legal
     void showk() {cout << k << "\n";}
+};
+
+//i and j inherited inderiectly through derived1
+class derived2 : public derived1{
+    int m;
+    public:
+        void setm() {m=i-j;} //legal
+    void showm() {cout << m << "\n";}
 };
 
 int main()
 {
-    derived ob;
+    derived1 ob1;
+    derived2 ob2;
 
-    ob.set(2,3); //OK, known to derived
-    ob.show(); ///OK, known to derived
+    ob1.set(2,3); //OK, known to derived
+    ob1.show(); ///OK, known to derived
+    ob1.setk();
+    ob1.showk();
 
-    ob.setk();
-    ob.showk(); //uses member of derived class
+    ob2.set(3,4);
+    ob2.show(); //uses member of derived class
+    ob2.setk();
+    ob2.setm();
+    ob2.showk();
+    ob2.showm();
 
     return 0;
 }
