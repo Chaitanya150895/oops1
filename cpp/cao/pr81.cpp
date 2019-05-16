@@ -15,7 +15,7 @@ class derived1 : public base{
     }
 };
 
-class derived2 : public base{
+class derived2 : public derived1{
     public:
     //vfunc() not overridden by derived2 , base's is used
 };
@@ -36,7 +36,7 @@ p->vfunc(); //access derivde1's vfunc()
 
 //point to derived2
 p = &d2;
-p->vfunc(); //access derived2's vfunc()
+p->vfunc(); //use derived1's vfunc()
 
 return 0;
 }
