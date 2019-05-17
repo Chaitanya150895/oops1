@@ -14,7 +14,7 @@ class number{
 class hextype : public number {
     public:
     void show() {
-        cout << hex << val << "\n";
+        cout << hex << val << "\n"; 
     }
 };
 
